@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url(Comfortaa/Comfortaa-VariableFont_wght.ttf) format("truetype"); 
+    }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(images/back-clouds-pink.jpeg);
+    font-family: 'Comfortaa';
+}
+
+nav {
+    background: rgb(255, 255, 255);
+    padding: 10px 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(226, 66, 146);
+    text-decoration: none;
+}
+
+a:hover {
+    /* font-size: 19px; */
+    transition-duration: 0.2s;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 9px rgb(255, 0, 157);
+}
+
+.menu li {
+    font-size: 16px;
+    padding: 15px 5px;
+}
+
+.menu li a {
+    display: block;
+}
+
+.logo #barbieLogo{
+    height: 70px;
+    /* margin-right: 20px; */
+}
+
+header {
+    /* background-color: rgb(255, 255, 255);
+    font-family: 'Comfortaa'; */
+    /* font-style: italic; */
+    /* display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px; */
+}
+
+/* 
+.headerSection {
+    display: flex;
+    align-items: center;
+}
+
+.headerItem {
+    padding: 10px 15px;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.headerItem:hover {
+    background-color: rgb(209, 88, 139);
+}
+
+.headerButton {
+    cursor: pointer;
+}
+
+ .header h1 {
+    color: rgb(219, 58, 133);
+    font-size: 18px;
+}
+
+.nav-menu {
+    margin: 0;
+    list-style-type: disc;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Comfortaa';
+}
+
+.nav-menu li {
+	display: inline; 
+    background-color: rgb(219, 58, 133);
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.nav-menu ul {
+	padding: 0;
+	display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu a {
+    color: rgb(255, 246, 252);
+    font-weight: bold;
+    text-decoration: none;	
+} */
