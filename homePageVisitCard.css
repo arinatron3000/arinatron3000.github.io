@@ -1,0 +1,84 @@
+@font-face {
+	font-family: Playfair Display;
+	src: url('font/PlayfairDisplay.ttf');
+}
+/* @font-face {
+	font-family: Playfair Display SC;
+    src: url('font/Playfair Display SC/PlayfairDisplaySC-Regular.ttf');
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #d2d2d2;
+    background-color: #111111;
+    font-family: Playfair Display;   
+}
+
+html, body {
+    /* height: 100%; */
+    /* line-height: 1; */
+}
+
+.wrapper {
+    /* max-width: 900px; */
+    margin: 0 auto;
+    overflow: hidden;
+    /* min-height: 100%; */
+    margin: 5% 10% 5% 10%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 6vw;
+    letter-spacing: 0.5vw;
+}
+
+/* link navigation by page "about me" and "projects" */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.link_item {
+    font-size: 2vw;
+    margin-right: 10vw;
+}
+
+.link_item:last-child {
+    margin-right: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.information {
+    /* padding: 0 3vw 0 3vw; */
+}
+
+.information p {
+    text-align: right;
+}
+
+/* ------------------------------------------------ */
+
+/* --- mobile --- */
+/* @media (max-width: 576px) {
+
+} */
+
+/* --- tablet --- laptop --- */
+/* @media (min-width: 577px) and (max-width: 1000px) {
+
+} */
+
+/* --- desktop, tv --- */
+/* @media (min-width: 1001px) {
+    
+} */
